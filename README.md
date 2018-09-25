@@ -11,6 +11,7 @@ npm install
 To create database and tables:
 
 ``
+start up mysql server
 npm run db && npm run migrate
 
 ``
