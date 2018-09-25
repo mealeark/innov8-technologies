@@ -11,8 +11,8 @@ npm install
 To create database and tables:
 
 ``
-npm run db
-npm run migrate
+npm run db && npm run migrate
+
 ``
 
 To compile your application:
