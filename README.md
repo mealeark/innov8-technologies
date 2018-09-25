@@ -8,6 +8,13 @@ To install all dependencies:
 npm install
 ``
 
+To create database and tables:
+
+``
+npm run db
+npm run migrate
+``
+
 To compile your application:
 
 ``
