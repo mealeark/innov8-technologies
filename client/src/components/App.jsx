@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>React Boilerplate!</div>
+      <div>THIS IS REACT</div>
     );
   }
 }
