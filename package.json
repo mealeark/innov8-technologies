@@ -7,7 +7,9 @@
     "start": "nodemon server/index.js",
     "dev": "webpack-dashboard -- nodemon server/index.js",
     "build": "webpack -d --watch --config ./webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "node ./database/db.js",
+    "migrate": "knex --knexfile=./database/knexfile.js migrate:latest"
   },
   "repository": {
     "type": "git",
@@ -27,10 +29,14 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "body-parser": "^1.18.3",
+    "bookshelf": "^0.13.3",
+    "express": "^4.16.3",
     "jquery": "^3.2.1",
+    "knex": "^0.15.2",
     "moment": "^2.19.2",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "underscore": "^1.8.3",
